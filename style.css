@@ -63,7 +63,7 @@ body {
     padding: var(--padding1);
 }
 
-.section {
+.section1 {
     flex: 2;
     padding: var(--padding1);
 }
@@ -75,7 +75,7 @@ img {
     margin: 1rem 0; 
 }
 
-.aside {
+.section2 {
     flex: 1;
     padding: var(--padding1);
 }
