@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color1: #333;
+    --color2: #570505;
+    --color3: white;
+    --color4: #555;
+    --colorhover: #666;
+    --padding1: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: var(--padding1);
+    text-align: center;
+}
+
+.nav {
+    background-color: var(--color4);
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav li {
+    margin: 0.5rem;
+}
+
+.nav a {
+    color: var(--color3);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--color4);
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: var(--colorhover);
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: var(--padding1);
+}
+
+.section {
+    flex: 2;
+    padding: var(--padding1);
+}
+
+img {
+    width: 300px; 
+    height: auto;
+    display: flex;
+    margin: 1rem 0; 
+}
+
+.aside {
+    flex: 1;
+    padding: var(--padding1);
+}
+
+.No-se {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: var(--color1);
+    color: var(--color3);
+    text-align: center;
+    padding: var(--padding1);
+}
